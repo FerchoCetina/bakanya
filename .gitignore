@@ -1,0 +1,7 @@
+# Created by pytest automatically.
+### Django ###
+*.log
+*.pot
+*.pyc
+.idea/
+__pycache__/

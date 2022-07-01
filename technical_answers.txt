@@ -1,0 +1,38 @@
+Part I: Technical Questions
+
+1. What are the supported data types in Python?
+    Boolean, Interger, Float, Complex Number, Strings, Dictionary, Set, List, Tuple
+
+2. What is the difference between tuples and lists in Python?
+    The principal difference is that tuples are inmutables and list are mutables.
+    Lists are dynamic, tuples are static.
+
+3. What are Python decorators?
+    Decorators allow a user add new functionality to a existing function without modifying its structure.
+    Usually these are called before the definition oof a function.
+
+4.- What are generators in Python?
+    Is a type od function that not return a single value, it return an interator object with a sequuence.
+    yield is used in these functions.
+
+5. What are shallow and deep copy operations?
+    Deep copy is a process in which the copying process occurs recursively. Any changes
+    made to a copy of object do not reflect, but in shallow copy its is allowed.
+
+6. Explain Dependency Injection?
+    Is a programming technique that makes a class independent of its dependencies.
+
+7.Explain how you can make a Python Script executable on Unix?
+    Write tu script python in a file .py for example my_script.py
+
+    If you want to run this script with default python, just type python my_script.py
+
+    If you want to run this script with especific python of virtual env, just type /paht/env/python my_script.py
+
+    If you want to run this periodically, you will can use crontab
+
+    type: crontab -e
+
+    write crontab syntax, for example 30 * * * * /usr/bin/python /path/script/my_script.py
+
+
